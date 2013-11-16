@@ -37,16 +37,21 @@ img {
 	border-radius: 25px;
 	margin: 10px;
 }
+#page_links li {
+ 	padding: 0px 10px 0px 10px;
+ 	display: inline;
+ 	 }
+#conferences_list li {
+	display: block;
+}
+#couse_list li {
+	display: block;
+}
+
 .links {
  	padding: 10px;
  	background: rgba(0, 0, 0, 0.5);
- 	margin: 0;
- 	
-  }
- li {
- 	padding: 0px 10px 0px 10px;
- }
-
+   }
  .disclaimer{
  	border: 5px solid black;
  	padding: 0px 20px 0px 20px;
@@ -70,4 +75,5 @@ img {
  background-color: white;
  padding: 0px 30px 0px 30px;
  margin-bottom: 50px;
+ display: block;
  }
